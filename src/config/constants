@@ -1,0 +1,35 @@
+module.exports = {
+
+    USER_ROLES: {
+        ADMIN: "ADMIN",
+        OWNER: "OWNER",
+        FARMER: "FARMER",
+        OPERATOR: "OPERATOR"
+    },
+
+    BOOKING_STATUS: {
+        PENDING: "PENDING",
+        ACCEPTED: "ACCEPTED",
+        OPERATOR_ASSIGNED: "OPERATOR_ASSIGNED",
+        START_PIN_GENERATED: "START_PIN_GENERATED",
+        IN_PROGRESS: "IN_PROGRESS",
+        COMPLETION_PIN_GENERATED: "COMPLETION_PIN_GENERATED",
+        COMPLETED: "COMPLETED",
+        CANCELLED: "CANCELLED"
+    },
+
+    LANGUAGES: {
+        MARATHI: "MR",
+        HINDI: "HI",
+        ENGLISH: "EN"
+    },
+
+    TRUST_LEVELS: {
+        PLATINUM: "PLATINUM",
+        GOLD: "GOLD",
+        SILVER: "SILVER",
+        BRONZE: "BRONZE",
+        RISKY: "RISKY"
+    }
+
+};
